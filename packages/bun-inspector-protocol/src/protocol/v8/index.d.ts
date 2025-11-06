@@ -11404,7 +11404,7 @@ export namespace V8 {
       eager?: boolean | undefined;
     };
     /**
-     * Enum of possible auto-reponse for permisison / prompt dialogs.
+     * Enum of possible auto-response for permission / prompt dialogs.
      */
     export type AutoResponseMode = "none" | "autoAccept" | "autoReject" | "autoOptOut";
     /**

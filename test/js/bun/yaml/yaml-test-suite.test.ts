@@ -2434,7 +2434,7 @@ word2
 });
 
 test("yaml-test-suite/BU8L", () => {
-  // Node Anchor and Tag on Seperate Lines
+  // Node Anchor and Tag on Separate Lines
   const input: string = `key: &anchor
  !!map
   a: b
@@ -6024,7 +6024,7 @@ test("yaml-test-suite/X4QW", () => {
 });
 
 test("yaml-test-suite/X8DW", () => {
-  // Explicit key and value seperated by comment
+  // Explicit key and value separated by comment
   const input: string = `---
 ? key
 # comment

@@ -10087,7 +10087,7 @@
         },
         {
           "id": "AutoResponseMode",
-          "description": "Enum of possible auto-reponse for permisison / prompt dialogs.",
+          "description": "Enum of possible auto-response for permission / prompt dialogs.",
           "experimental": true,
           "type": "string",
           "enum": ["none", "autoAccept", "autoReject", "autoOptOut"]

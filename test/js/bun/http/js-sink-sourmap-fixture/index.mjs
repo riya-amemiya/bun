@@ -3388,7 +3388,7 @@ function createHasher(options) {
         if (this[objType]) {
           this[objType](object);
         } else if (!options.ignoreUnknown) {
-          this.unkown(object, objType);
+          this.unknown(object, objType);
         }
       } else {
         let keys = Object.keys(object);
@@ -3452,7 +3452,7 @@ function createHasher(options) {
     symbol(sym) {
       return write("symbol:" + sym.toString());
     },
-    unkown(value, type) {
+    unknown(value, type) {
       write(type);
       if (!value) {
         return;

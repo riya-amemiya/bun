@@ -411,7 +411,7 @@ describe("util", () => {
     });
 
     // these are the windows/fallback codes and they should match node in either returning the correct name or 'Unknown system error'.
-    // eg on linux getSystemErrorName(-4034) should return unkown and not 'ERANGE' since errno defines it as -34 for that platform.
+    // eg on linux getSystemErrorName(-4034) should return unknown and not 'ERANGE' since errno defines it as -34 for that platform.
     for (let i = -4095; i <= -4023; i++) {
       it(`negative space: getSystemErrorName(${i}) is correct`, () => {
         const cmd = ["node", "-e", `console.log(JSON.stringify(util.getSystemErrorName(${i})));`];

@@ -408,7 +408,7 @@ describe("bunx --no-install", () => {
   });
 
   /*
-    yes, multiple package tests are neccessary.
+    yes, multiple package tests are necessary.
       1. there's specialized logic for `bunx tsc` and `bunx typescript`
       2. http-server checks for non-alphanumeric edge cases. Plus it's small
       3. eslint is alphanumeric and extremely common
